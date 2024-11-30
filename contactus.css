@@ -9,7 +9,7 @@ body {
   
   header.header {
     text-align: center;
-    background: #333;
+    background: rgba(212, 163, 115, 0.8);
     color: #fff;
     padding: 20px 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
