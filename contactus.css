@@ -89,7 +89,7 @@ body {
   }
   
   .contact-form form button:hover {
-    background: #45a049;
+    background: rgba(231, 215, 193, 0.9);
   }
   
   /* Informacion Kontakti */
@@ -126,3 +126,4 @@ body {
     color: #4CAF50;
     margin-bottom: 15px;
   }
+  
