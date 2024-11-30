@@ -9,7 +9,7 @@ body {
   
   header.header {
     text-align: center;
-    background: rgba(212, 163, 115, 0.8);
+    background: rgba(229, 169, 109, 0.8);
     color: #fff;
     padding: 20px 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ body {
   }
   
   .contact-form h2, .contact-info h2 {
-    color:rgba(212, 163, 115, 0.8);
+    color:rgba(199, 135, 71, 0.8);
     margin-bottom: 15px;
   }
   
@@ -78,7 +78,7 @@ body {
   
   .contact-form form button {
     width: 100%;
-    background: rgba(212, 163, 115, 0.8);
+    background: rgba(179, 100, 21, 0.8);
     color: white;
     border: none;
     border-radius: 5px;
