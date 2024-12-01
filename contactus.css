@@ -5,12 +5,15 @@ body {
     padding: 0;
     color: #333;
     background: rgba(209, 176, 143, 0.8);  
+    background-color: rgba(215, 165, 100, 0.8); 
+
     line-height: 1.6;
   }
   
   header.header {
     text-align: center;
     background: rgba(229, 169, 109, 0.8);
+
     color: #fff;
     padding: 20px 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
