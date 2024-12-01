@@ -115,15 +115,4 @@ body {
   }
   
 
-  .map-container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .map-container h2 {
-    color:  rgba(212, 163, 115, 0.8);
-    margin-bottom: 15px;
-  }
-  
+ 
