@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  rgba(209, 176, 143, 0.8);
+    color: white;
+}
+
+header {
+    background-color: rgba(212, 163, 115, 0.8);
+    color: white;
+    padding: 1px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    line-height: 1.4;
+    font-size: 3rem;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    
+}
+
+p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.book-catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.book-item {
+    background-color: rgba(231, 196, 161, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px  #333;
+    text-align: center;
+    }
+
+.book-item img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.book-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: rgb(12, 12, 13);
+}
+
+.book-item p {
+    font-size: 1rem;
+    color: rgb(76, 68, 68);
+}
+
+.book-item a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #8b6c36;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.book-item a:hover {
+    background-color: #8a734a;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: rgba(212, 163, 115, 0.8);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Catalog</h1>
+        <p>Browse through our collection of books and find your next great read!</p>
+    </header>
+    <section class="book-catalog">
+    
+         <article class="book-item">
+            <img src="libri1.jpg" alt="The Great Gatsby Cover">
+            <h3>The Great Gatsby</h3>
+            <p><strong>Author:</strong> F. Scott Fitzgerald  </p>
+            <p><strong>Price:</strong> $19.99</p>
+            <a href="libri1.html">View Details</a>
+        </article>
+        <article class="book-item">
+            <img src="libri2.jpg" alt=" Pride and Prejudice Cover">
+            <h3>Pride and Prejudice</h3>
+            <p><strong>Author:</strong> Jane Austen</p>
+            <p><strong>Price:</strong> $25.99</p>
+            <a href="libri2.html">View Details</a>
+        </article>
+        <article class="book-item">
+            <img src="libri3.jpg" alt="1984 Cover">
+            <h3>1984</h3>
+            <p><strong>Author:</strong>George Orwell</p>
+            <p><strong>Price:</strong> $15.99</p>
+            <a href="libri3.html">View Details</a>
+        </article>
+        <article class="book-item">
+            <img src="libri4.jpg" alt="Crime and Punishment Cover">
+            <h3>Crime and Punishment</h3>
+            <p><strong>Author:</strong> Fyodor Dostoevsky</p>
+            <p><strong>Price:</strong> $23.99</p>
+            <a href="libri4.html">View Details</a>
+        </article>
+        <article class="book-item">
+            <img src="libri5.jpg" alt="Hamlet Cover">
+            <h3>Hamlet</h3>
+            <p><strong>Author:</strong>William Shakespeare</p>
+            <p><strong>Price:</strong> $16.99</p>
+            <a href="libri5.html">View Details</a>
+        </article>
+        <article class="book-item">
+            <img src="libri6.jpg" alt=" Pride and Prejudice Cover">
+            <h3>The Stranger</h3>
+            <p><strong>Author:</strong> Albert Camus</p>
+            <p><strong>Price:</strong> $25.99</p>
+            <a href="libri6.html">View Details</a>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Online Bookstore</p>
+    </footer>
+</body>
+</html>
+
+
+
+
